@@ -1,0 +1,46 @@
+git clone https://github.com/AnjulUpadhyay/jenkins.git #to get the repo to our local or in server
+ 1140  ls
+ 1141  git clone https://github.com/AnjulUpadhyay/jenkins.git
+ 1142  cd jenkins/
+ 1143  ls
+ 1144  git pull #to reflect the latest changes (suppose someone added something).
+ 1145  ls
+ 1146  nano Anjul_resume.pdf 
+ 1147  cat Anjul_resume.pdf 
+ 1148  cd ..
+ 1149  ls
+ 1150  pwd
+ 1151  mv dockerfile /root/jenkins/  #alway you can push the file from the connected dir
+ 1152  ls
+ 1153  cd jenkins/
+ 1154  ls
+ 1155  git add dockerfile #this will prepare file to push to the git
+ 1156  git commit  #To save the data (if you are commiting one file you should know why are you comminting it)
+ 1157  nano dockerfile 
+ 1158  git status  #To check the changed file list
+ 1159  git gui   #Only for windows
+ 1160  git status
+ 1161  git add .   #You cant add one by one all the files so use this to add all the files
+ 1162  git commit -m "changed in docker file to use this -m flag"   #To give you the info why are you doing this
+ 1163  git push  #To push the file to git
+ 1164  ls
+ 1165  git rm Anjul_resume.pdf  #to remove the file
+ 1166  ls
+ 1167  git commit
+ 1168  git push
+ 1169  git log –oneline  master
+ 1170  git branch tomcat-test   #To Create the branch
+ 1171  git branch
+ 1172  git checkout tomcat  #To switch one branch from other branch
+ 1173  git checkout tomcat-test
+ 1174  ls
+ 1175  git checkout master
+ 1176  git push
+ 1177  git config
+ 1178  git config --global user.name "AnjulUpadhyay"
+ 1179  git config --global user.email "akanjulupadhyay@gmail.com"
+ 1180  git commit 
+ 1181  git branch
+ 1182  git push
+ 1183  git push origin tomcat-test   #To push the branch in github
+ 1184  git checkout tomcat-test
